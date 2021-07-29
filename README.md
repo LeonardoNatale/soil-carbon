@@ -12,7 +12,7 @@ Installation Steps:
 - nbstripout --install (to avoid notebooks conflicts)
 
 
-## Dataset Description
+## Meta-analysis dataset Description
 
 Harmonized complilation of mostly georeferenced soil carbon stock data with a focus on finding SOC stocks under 
 patches of native remnant vegetation within large agricultural regions. For most native sites, paired agricultural 
