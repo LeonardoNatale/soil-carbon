@@ -3,11 +3,13 @@
 [Paper](https://www.pnas.org/content/114/36/9575?__cf_chl_jschl_tk__=pmd_f058691333b9ea8968c99d5667424db6abbd64f9-1627461072-0-gqNtZGzNAeKjcnBszQiO#sec-10)  
 [Meta-analysis Data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QQQM8V)  
 [Hyde Dataset](https://www.pbl.nl/en/image/links/hyde)  
-[Github](https://github.com/whrc/Soil-Carbon-Debt)
+[Github](https://github.com/whrc/Soil-Carbon-Debt)  
+[WoSIS snapshot - September 2019](https://data.isric.org/geonetwork/srv/eng/catalog.search#/metadata/ca880bd4-cff8-11e9-8046-0cc47adaa92c)
 
 Installation Steps:
+- download the WoSIS dataset from the link above and extract it in the `data/` folder
 - pip install -r requirements.txt
-- nbstripout --install
+- nbstripout --install (to avoid notebooks conflicts)
 
 
 ## Dataset Description
