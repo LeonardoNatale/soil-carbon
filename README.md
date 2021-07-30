@@ -8,6 +8,7 @@
 Installation Steps:
 - pip install -r requirements.txt
 - nbstripout --install
+- cd r_scripts && Rscript data_download.r
 
 
 ## Dataset Description
