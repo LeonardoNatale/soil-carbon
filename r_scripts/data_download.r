@@ -3,7 +3,10 @@ urls <- c(
   'https://gitlab.com/openlandmap/compiled-ess-point-data-sets/-/raw/master/out/rds/sol_hydro.pnts_horizons.rds',
   'https://gitlab.com/openlandmap/compiled-ess-point-data-sets/-/raw/master/out/rds/sol_ksat.pnts_horizons.rds',
   'https://gitlab.com/openlandmap/compiled-ess-point-data-sets/-/raw/master/out/rds/pnv_biomes.pnts_sites.rds',
-  'https://gitlab.com/openlandmap/compiled-ess-point-data-sets/-/raw/master/out/rds/lcv_nat.landcover.pnts_sites.rds'
+  'https://gitlab.com/openlandmap/compiled-ess-point-data-sets/-/raw/master/out/rds/lcv_nat.landcover.pnts_sites.rds',
+  'https://gitlab.com/openlandmap/compiled-ess-point-data-sets/-/raw/master/out/rds/lcv_nat.landcover.pnts_sites_cm.rds',
+  'https://gitlab.com/openlandmap/compiled-ess-point-data-sets/-/raw/master/out/rds/sol_hydro.pnts_horizons_rm.rds',
+  'https://gitlab.com/openlandmap/compiled-ess-point-data-sets/-/raw/master/out/rds/pnv_biomes.pnts_sites_cm.rds'
 )
 
 transform_data_to_csv <- function(url_str){
@@ -33,3 +36,5 @@ transform_data_to_csv <- function(url_str){
 
 lapply(urls, transform_data_to_csv)
 
+data2 <- readRDS("lcv_nat.landcover.pnts_sites_cm.rds")
+head(data2)
