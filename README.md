@@ -10,7 +10,7 @@ Installation Steps:
 - download the WoSIS dataset from the link above and extract it in the `data/` folder
 - pip install -r requirements.txt
 - nbstripout --install (to avoid notebooks conflicts)
-- cd r_scripts && Rscript data_download.r
+- cd r_scripts && Rscript data_download.r (to download the data [here](https://gitlab.com/openlandmap/compiled-ess-point-data-sets#soil-properties-and-classes).
 
 
 ## Meta-analysis dataset Description
