@@ -13,7 +13,22 @@ Installation Steps:
 - cd r_scripts && Rscript data_download.r (to download the data [here](https://gitlab.com/openlandmap/compiled-ess-point-data-sets#soil-properties-and-classes).
 
 
-## Meta-analysis dataset Description
+## WoSIS Dataset Description
+
+The present snapshot, referred to as ‘WoSIS snapshot - September 2019’, comprises 196,498 geo-referenced profiles originating from 173 countries.  
+They represent over 832 thousand soil layers (or horizons), and over 6 million records.  
+The actual number of observations for each property varies (greatly) between proﬁles and with depth, this generally depending on the objectives of the initial soil sampling programmes.  
+  
+The `WoSIS_2019_September` folder has the data in TSV (tab separated values) and GeoPackage format. It contains the following files:
+- ReadmeFirst_WoSIS_2019dec04.pdf (546.7 KB)
+- wosis_201909.gpkg (2.2 GB, same data as in the tsv)
+- wosis_201909_attributes.tsv (8.7 KB)
+- wosis_201909_layers_chemical.tsv (893.5 MB)
+- wosis_201909_layers_physical.tsv (890.7 MB)
+- wosis_201909_profiles.tsv (18.8 MB)
+
+
+## Meta-analysis Dataset Description
 
 Harmonized complilation of mostly georeferenced soil carbon stock data with a focus on finding SOC stocks under 
 patches of native remnant vegetation within large agricultural regions. For most native sites, paired agricultural 
